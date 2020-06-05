@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { YellowBackgroundComponent } from '../app/yellow-background/yellow-background.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  links = ['Learn Angular', 'Documentation', 'Unlearn React'];
   title = 'my-angular-site';
 }

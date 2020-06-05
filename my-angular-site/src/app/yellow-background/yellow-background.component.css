@@ -1,3 +1,19 @@
+.tiny-box {
+  width: 2in;
+  height: 2in;
+}
+
 .yellow {
-  background-color: "#ffff00";
+  background-color: yellow;
+}
+
+/* test to see which element is changed */
+:host {
+  background-color: red;
+  padding: 0.1in;
+}
+
+:host(.green) {
+  background-color: green;
+  color:blue;
 }
