@@ -4,7 +4,8 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   selector: 'app-yellow-background',
   templateUrl: './yellow-background.component.html',
   styleUrls: ['./yellow-background.component.css'],
-  encapsulation: ViewEncapsulation.Emulated
+  // emulated is the default style
+  // encapsulation: ViewEncapsulation.Emulated
 })
 export class YellowBackgroundComponent implements OnInit {
 
