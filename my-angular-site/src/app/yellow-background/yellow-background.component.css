@@ -8,12 +8,13 @@
 }
 
 /* test to see which element is changed */
+/* should render black border */
 :host {
-  background-color: red;
-  padding: 0.1in;
+  border: 2px solid black;
 }
 
-:host(.green) {
-  background-color: green;
-  color:blue;
+/* should render red background */
+:host(.red-host) {
+  background-color: red;
+  padding: 0.1in;
 }
