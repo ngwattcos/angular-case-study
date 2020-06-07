@@ -14,7 +14,7 @@
     </a>
 </div>
 
-<div class="content" role="main">
+<div class="content silly-theme" role="main">
 
   <!-- Highlight Card -->
   <div class="card highlight-card card-small">
@@ -41,25 +41,23 @@
   <div class="card-container">
 
 
-    <a class="card" target="_blank" rel="noopener" *ngFor="let link of links;"> 
-      <div>
-        <span>{{link}}</span>
-      </div>
-      <div class="green tiny-box">
-        hi
-      </div>
+    <div *ngFor="let link of links;"> 
+      
       <app-yellow-background class="red-host">
-        <p>random paragraph</p>
-        <p>random paragraph</p>
-        <p>random paragraph</p>
-        <p>random paragraph</p>
-        <p>random paragraph</p>
-        <p>random paragraph</p>
       </app-yellow-background>
-    </a>
-
-
+    </div>
   </div>
+
+    <ul>
+      <h2>Applied Selectors</h2>
+
+      <li>:host gives black border</li>
+      <li>:host(.red-host) gives red padding</li>
+      <li>:host-context(.silly-theme) makes font Webdings</li>
+      <li>:host .innermost from within yellow-component makes cyan background</li>
+      <li>:host ::ng-deep .innermost from app.component</li>
+    </ul>
+    
 
 
 </div>

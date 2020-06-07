@@ -1,6 +1,6 @@
 .tiny-box {
-  width: 2in;
-  height: 2in;
+  width: 1in;
+  height: 1in;
 }
 
 .yellow {
@@ -17,4 +17,15 @@
 :host(.red-host) {
   background-color: red;
   padding: 0.1in;
+}
+
+:host .innermost {
+  background-color: cyan;
+  padding: 0.1in;
+  font-family: fantasy;
+}
+
+/* should render Webdings */
+:host-context(.silly-theme) {
+  font-family: 'Courier';
 }
