@@ -40,12 +40,8 @@
 
   <div class="card-container">
 
-
-    <div *ngFor="let link of links;"> 
-      
-      <app-yellow-background class="red-host">
-      </app-yellow-background>
-    </div>
+    <app-yellow-background class="red-host" *ngFor="let link of links">
+    </app-yellow-background>
   </div>
 
     <ul>
