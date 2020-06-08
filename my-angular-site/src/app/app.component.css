@@ -21,9 +21,6 @@ p {
   margin: 0;
 }
 
-.spacer {
-  flex: 1;
-}
 
 .toolbar {
   position: absolute;
@@ -42,15 +39,6 @@ p {
   margin: 0 16px;
 }
 
-.toolbar #twitter-logo {
-  height: 40px;
-  margin: 0 16px;
-}
-
-.toolbar #twitter-logo:hover {
-  opacity: 0.8;
-}
-
 .content {
   display: flex;
   margin: 82px auto 32px;
@@ -60,23 +48,9 @@ p {
   align-items: center;
 }
 
-svg.material-icons {
-  height: 24px;
-  width: auto;
-}
-
-svg.material-icons:not(:last-child) {
-  margin-right: 8px;
-}
-
-.card svg.material-icons path {
-  fill: #888;
-}
 
 .card-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   margin-top: 16px;
 }
 
@@ -132,29 +106,6 @@ svg.material-icons:not(:last-child) {
   margin-left: 60px;
 }
 
-a,
-a:visited,
-a:hover {
-  color: #1976d2;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #125699;
-}
-
-
-footer {
-  margin-top: 8px;
-  display: flex;
-  align-items: center;
-  line-height: 20px;
-}
-
-footer a {
-  display: flex;
-  align-items: center;
-}
 
 /* should apply italic style to innermost */
 :host ::ng-deep .innermost {
