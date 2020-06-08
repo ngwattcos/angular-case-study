@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { YellowBackgroundComponent } from '../app/yellow-background/yellow-background.component';
+// import { YellowBackgroundComponent } from '../app/yellow-background/yellow-background.component';
 
 @Component({
   selector: 'app-root',
