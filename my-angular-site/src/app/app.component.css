@@ -113,3 +113,7 @@ p {
 :host ::ng-deep .innermost {
   font-style: italic;
 }
+
+:host ::ng-deep .test-combine {
+  
+}
