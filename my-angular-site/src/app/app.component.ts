@@ -7,7 +7,6 @@ import { YellowBackgroundComponent } from '../app/yellow-background/yellow-backg
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  // links = ['Learn Angular', 'Documentation', 'Unlearn React'];
-  links = ['Learn Angular', 'Unlearn React'];
+  links = ['Learn Angular'];
   title = 'my-angular-site';
 }
