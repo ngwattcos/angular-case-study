@@ -3,6 +3,6 @@
   font-size: 50px;
 }
 
-:host * {
+:host ::ng-deep * {
   font-family: serif;
 }
