@@ -1,4 +1,8 @@
-.margin-top {
+.margin-top-class {
   margin-top: 2rem;
   font-size: 50px;
+}
+
+:host * {
+  font-family: serif;
 }

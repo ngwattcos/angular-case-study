@@ -115,5 +115,5 @@ p {
 }
 
 :host ::ng-deep .test-combine {
-  
+  text-decoration: underline;
 }

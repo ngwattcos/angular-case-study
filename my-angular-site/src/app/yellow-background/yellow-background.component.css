@@ -29,3 +29,7 @@
 :host-context(.silly-theme) {
   font-family: 'Courier';
 }
+
+:host ::ng-deep .test-combine {
+  font-weight: bold;
+}
